@@ -8,10 +8,26 @@
 /* Sheared Style */
 
 
+.btn-primary{
+    width: 196px;
+    height: 44px;
+    border: none;
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
 
 
 
 /* navbar */
+
+.fa-solid{
+    margin: .5rem;
+
+}
 
 .navbar {
     display: flex;
@@ -27,9 +43,11 @@
     font-weight: 700px;
     margin-top: 5.93rem;
 }
-.pro{
+
+.pro {
     color: lightslategray;
 }
+
 .navbar ul>li {
     list-style: none;
     margin-right: 2.1rem;
@@ -38,11 +56,13 @@
     font-weight: 600;
     margin-top: 5.93rem;
 }
-.nav-item>a{
+
+.nav-item>a {
     color: #3A3A3A;
     font-size: 16px;
     font-weight: 600;
 }
+
 ul {
     display: flex;
     justify-content: space-evenly;
@@ -52,4 +72,52 @@ ul {
 /* navbar end */
 
 /* Header banner start */
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3.26rem 8.25rem 4.31rem 7.5rem;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+}
+
+.header-title {
+    width: 36.375rem;
+    height: 8.3rem;
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 4.37rem;
+    /* 134.615% */
+}
+
+.header-description {
+    width: 31.56rem;
+    height: 3.9rem;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1rem 0 ;
+}
+
+.header-pic {
+    width: 29.68rem;
+    height: 29.68rem;
+    background-image: url("images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    margin-top: 3.26rem;
+}
+
+img {
+    width: 27.5rem;
+    height: 25.87rem;
+    padding: .7rem;
+}
+
+/* Header Banner end */
 
